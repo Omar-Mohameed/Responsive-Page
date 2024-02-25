@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="white-theme">
+    <nav>
+      <div class="menu">
+        <input type="checkbox" id="check" checked>
+        <div class="logo"><a href="#">Omar | web Develober</a></div>
+        <div class="load">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+
+        <div class="dark">
+          <label class="night-light-label" for="night-light">
+        <input type="checkbox" id="night-light" checked>
+        <span class="night-light-ball"></span>
+        <i class="fa-solid fa-sun sun"></i>
+        <i class="fa-solid fa-moon moon"></i>
+      </label>
+        </div>
+        <ul>
+          <label for="check" class="button cancel"><i class="fas fa-times"></i></label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+        <label for="check" class="button show"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="card one">
+            <div class="top">
+              <div class="title">Basic</div>
+              <div class="Price">
+                <span class="dollar">$</span>
+                <span class="price">40</span>
+                <span class="decimal">.17</span>
+              </div>
+            </div>
+            <div class="info">Limited Features You Will Get On This Package Or Plan</div>
+            <div class="details">
+              <div class="data">
+                <span>One Addons Domain</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>100Gb Local Storage</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>Life Time Tech Support</span>
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="data">
+                <span>Unlimited Data Transform</span>
+                <i class="fas fa-times"></i>
+              </div>
+              <button>Purchase</button>
+            </div>
+        </div>
+        <div class="card two">
+            <div class="top">
+              <div class="title">Extended</div>
+              <div class="Price">
+                <span class="dollar">$</span>
+                <span class="price">70</span>
+                <span class="decimal">.19</span>
+              </div>
+            </div>
+            <div class="info">Only Some Features You Will Get On This Package Or Plan</div>
+            <div class="details">
+              <div class="data">
+                <span>One Addons Domain</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>100Gb Local Storage</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>Life Time Tech Support</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>Unlimited Data Transform</span>
+                <i class="fas fa-times"></i>
+              </div>
+              <button>Purchase</button>
+            </div>
+          </div>
+        <div class="card three">
+            <div class="top">
+              <div class="title">Premium</div>
+              <div class="Price">
+                <span class="dollar">$</span>
+                <span class="price">99</span>
+                <span class="decimal">.99</span>
+              </div>
+            </div>
+            <div class="info">Limited Features You Will Get On This Package Or Plan</div>
+            <div class="details">
+              <div class="data">
+                <span>One Addons Domain</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>100Gb Local Storage</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>Life Time Tech Support</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <div class="data">
+                <span>Unlimited Data Transform</span>
+                <i class="fas fa-check"></i>
+              </div>
+              <button>Purchase</button>
+            </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var check = document.getElementById("night-light");
+      check.onclick=function(){
+        document.body.classList.toggle("white-theme")
+      }
+    </script>
+</body>
+</html>
+
+<!-- :root{
+  --backgroundcolor-body:#010409;
+  --color-nav:antiquewhite;
+  --color-logo:antiquewhite;
+  --back-color-nav:#010409;
+  --sectionColor:black;
+  --color-section:white;
+} -->
